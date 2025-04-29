@@ -11,7 +11,7 @@ Welcome to **Vroom Automobiles** — a web-based showroom management system desi
 - **Sales Management**: Record sales, view history, and manage customer records.
 - **Account Settings**: View account information and securely update your password.
 - **Authentication**: Login and session-based access control.
-- **Responsive Design**: Mobile-friendly UI using TailwindCSS.
+- **Responsive Design**: UI using TailwindCSS.
 - **Secure Backend**: Built with PHP and MySQL (PDO) with prepared statements.
 
 ---
@@ -48,12 +48,6 @@ Welcome to **Vroom Automobiles** — a web-based showroom management system desi
 - Sales analytics dashboard (charts and graphs).
 - Email notifications to customers after a sale.
 - Role-based user management (Admin vs Salesperson).
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
