@@ -61,7 +61,7 @@ Welcome to **Vroom Automobiles** — a web-based showroom management system desi
 
 ## ✨ Author
 
-Made with ❤️ by [Ronit]  
+Made with ❤️ by Ronit.  
 [GitHub Profile](https://github.com/ronit404)
 
 ---
