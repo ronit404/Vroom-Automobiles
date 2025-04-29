@@ -20,17 +20,56 @@ Welcome to **Vroom Automobiles** — a web-based showroom management system desi
 
 - **Frontend**:  
   - HTML5, CSS3, TailwindCSS 2.2
-  - JavaScript (minimal)
+  - JavaScript
 
 - **Backend**:  
   - PHP 8+
   - MySQL Database (PDO)
 
 - **Other**:
-  - EmailJS integration (optional) for notifications
+  - EmailJS integration for notifications
   - Session-based authentication
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Cloning
 
+**Clone the Repository**
+   ```bash
+   git clone https://github.com/ronit404/Vroom-Automobiles.git
+   cd Vroom-Automobiles
+   ```
+---
+
+## 🌟 Future Improvements
+
+- Admin panel to manage employees.
+- Image upload for automobiles.
+- Sales analytics dashboard (charts and graphs).
+- Email notifications to customers after a sale.
+- Role-based user management (Admin vs Salesperson).
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+- [TailwindCSS](https://tailwindcss.com/)
+- [EmailJS](https://www.emailjs.com/)
+- PHP Community and StackOverflow Contributors
+
+---
+
+## ✨ Author
+
+Made with ❤️ by [Ronit]  
+[GitHub Profile](https://github.com/ronit404)
+
+---
+
+# 🚀 Let's Vroom!
