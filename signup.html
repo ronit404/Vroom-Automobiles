@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup - Vroom Automobiles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 min-h-screen flex flex-col items-center text-white">
+
+    <!-- Header at the top -->
+    <header class="w-full bg-black text-white text-center py-4 shadow-md">
+        <h1 class="text-2xl font-bold">Vroom Automobiles</h1>
+    </header>
+
+    <!-- Signup Form -->
+    <main class="flex-grow flex items-center justify-center w-full mt-10">
+        <div class="bg-black p-8 rounded-lg shadow-lg w-96 text-center border border-white">
+            <h2 class="text-xl font-semibold text-white mb-4">Signup</h2>
+
+            <form id="signup-form" method="POST" action="php/signup.php" class="space-y-4">
+                <input type="text" name="username" placeholder="Username" required
+                       class="w-full px-4 py-2 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-white bg-gray-800 text-white">
+                <input type="email" name="email" placeholder="Email" required
+                       class="w-full px-4 py-2 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-white bg-gray-800 text-white">
+                <input type="password" name="password" placeholder="Password" required
+                       class="w-full px-4 py-2 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-white bg-gray-800 text-white">
+                <button type="submit"
+                        class="w-full py-2 bg-gray-700 text-white rounded-md hover:bg-gray-600 transition duration-200">
+                    Signup
+                </button>
+            </form>
+
+            <p class="mt-4 text-sm text-gray-400">
+                Already have an account?
+                <a href="index.html" class="text-white hover:underline">Login here</a>
+            </p>
+        </div>
+    </main>
+
+</body>
+</html>
