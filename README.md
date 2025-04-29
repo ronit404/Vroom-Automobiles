@@ -32,13 +32,26 @@ Welcome to **Vroom Automobiles** — a web-based showroom management system desi
 
 ---
 
-## ⚙️ Cloning
+## ⚙️ Installation and Setup
 
-**Clone the Repository**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/ronit404/Vroom-Automobiles.git
    cd Vroom-Automobiles
    ```
+
+2. **Configure Database**
+   - Create a MySQL database (e.g., `vroom_db`).
+   - Import the provided SQL schema (if available).
+   - Update your `/config/config.php` file with your database credentials.
+
+3. **Run the Project**
+   - Deploy on XAMPP, WAMP, or any Apache server environment.
+   - Visit `http://localhost/vroom-automobiles/` in your browser.
+
+4. **Default Login**
+   - Create a user manually in the database or extend the project with a registration page.
+
 ---
 
 ## 🌟 Future Improvements
